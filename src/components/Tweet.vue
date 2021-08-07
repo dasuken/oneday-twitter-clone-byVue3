@@ -21,22 +21,22 @@
 
         <div class="mt-2 flex items-center justify-between">
           <div class="text-gray-500">
-            <i class="fas fa-comment p-2 mr-1 roundedn-full hover:bg-green-900 hover:text-green-500"></i>
+            <i class="fas fa-comment p-2 mr-1 rounded-full hover:bg-green-900 hover:text-green-500"></i>
             <span>{{ tweet.stats.comments.length }}</span>
           </div>
 
           <div class="text-gray-500">
-            <i class="fas fa-retweet p-2 mr-1 roundedn-full hover:bg-green-900 hover:text-green-500"></i>
+            <i class="fas fa-retweet p-2 mr-1 rounded-full hover:bg-green-900 hover:text-green-500"></i>
             <span>{{ tweet.stats.retweets.length }}</span>
           </div>
 
           <div class="text-gray-500">
-            <i class="fas fa-heart p-2 mr-1 roundedn-full hover:bg-green-900 hover:text-green-500"></i>
+            <i class="fas fa-heart p-2 mr-1 rounded-full hover:bg-green-900 hover:text-green-500"></i>
             <span>{{ tweet.stats.likes.length }}</span>
           </div>
 
           <div class="text-gray-500">
-            <i class="fas fa-share p-2 mr-1 roundedn-full hover:bg-green-900 hover:text-green-500"></i>
+            <i class="fas fa-share p-2 mr-1 rounded-full hover:bg-green-900 hover:text-green-500"></i>
           </div>
         </div>
       </section>
